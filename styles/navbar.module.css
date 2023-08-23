@@ -1,0 +1,38 @@
+.navbar {
+    /* background-color: green; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem
+}
+
+.imagewrapper {
+    position: relative;
+}
+
+.image1 {
+    width: 100px;
+    height: 34px;
+}
+
+.image2 {
+    width: 100px;
+    height: 38px;
+}
+
+.image3 {
+    width: 116px;
+    height: 28px;
+}
+
+.image4 {
+    width: 116px;
+    height: 28px;
+}

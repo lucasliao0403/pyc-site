@@ -1,0 +1,42 @@
+
+
+.grid {
+    display: grid;
+}
+
+.grid div {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.background {
+    /* max-width: none; */
+    width: 150vw;
+    height: 150vw;
+    position: relative;
+}
+
+.backgroundwrapper {
+    margin-top: 5rem;
+    border-radius: 10000px 0 0 0;
+    max-width: none;
+    margin-left: -30vw;
+    overflow: hidden;
+}
+
+.banner {
+    margin-top: 15vh;
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    transform: rotate(-2deg);
+}
+
+.header h1 {
+    
+}
+
