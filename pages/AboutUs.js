@@ -89,7 +89,7 @@ function AboutUs(props) {
                         <h1> meat da team</h1>
                     </div>
 
-                    <div className={styles.headshotflex}>
+                    <div className={`${styles.headshotflex} ${fira_mono.className}`}>
                         <div className={styles.headshotflexbox}> 
                             <div className={styles.spacer}/>
                             <RenderTeam side={0}/>

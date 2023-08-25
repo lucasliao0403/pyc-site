@@ -1,18 +1,14 @@
 import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/members.module.css'
-import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
 import {team} from '/assets/team.js'
 import Draggable from 'react-draggable'; 
-
-
-const fira_mono = Fira_Mono({ subsets: ['latin'], weight: ["400", "500", "700"] })
 
 
 export function Member(props) {
     return (
         <Draggable>
-        <div  className={`${styles.member} ${fira_mono.className}`}>
+        <div  className={styles.member}>
             <div  className={styles.headshot}>
                 <Image
                 draggable={false}
