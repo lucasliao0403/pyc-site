@@ -18,3 +18,15 @@
     height: 150px;
     width: 150px;
 }
+
+.headshotrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshotcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}

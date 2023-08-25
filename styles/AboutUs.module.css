@@ -135,11 +135,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 350px;
 }
 
-.headshotcontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.spacer {
+    height: 200px;
 }
+

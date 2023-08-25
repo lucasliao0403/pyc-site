@@ -2,43 +2,15 @@ import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/AboutUs.module.css'
 import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
-import Member from './components/members'
-import {team} from '/assets/team.js'
+import {Member, RenderTeam} from './components/members'
+
 
 const fira_mono = Fira_Mono({ subsets: ['latin'], weight: ["400", "500", "700"] })
 
 
 function AboutUs(props) {
 
-    const RenderGroup = ({group}) => { 
-        console.log(group)
-        return (
-        <div className={styles.headshotcontainer}>
-            {group.map( (member) => {
-                return(
-                <Member name={member.name} position={member.position}/>
-                )
-            })}
-        </div>
-        )
-    }
-
-    const RenderTeam = (props) => {
-        return (
-            <div>
-                {team.map((group) => {
-                    return (
-                        
-                            <RenderGroup group={group}/>
-
-                    )
-                })}
-            </div>
-        )
-    }
-
     
-
     return (
         <div>
             <div className={styles.grid}>
@@ -119,10 +91,11 @@ function AboutUs(props) {
 
                     <div className={styles.headshotflex}>
                         <div className={styles.headshotflexbox}> 
-                            <RenderTeam/>
+                            <div className={styles.spacer}/>
+                            <RenderTeam side={0}/>
                         </div>
                         <div className={styles.headshotflexbox}> 
-                            
+                            <RenderTeam side={1}/>
                         </div>
                     </div>
                 </div>
