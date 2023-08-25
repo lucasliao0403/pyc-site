@@ -28,7 +28,7 @@ export function Member(props) {
 }
 
 const RenderGroup = ({group}) => { 
-    console.log(group)
+    // console.log(group)
     return (
     <div className={styles.headshotrow}>
         {group.map( (member) => {

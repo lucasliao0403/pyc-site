@@ -1,18 +1,15 @@
 import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/AboutUs.module.css'
-import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
+// import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
 import {Member, RenderTeam} from './components/members'
 
 
-const fira_mono = Fira_Mono({ subsets: ['latin'], weight: ["400", "500", "700"] })
 
 
 function AboutUs(props) {
-
-    
     return (
-        <div>
+        <div className={styles.about}>
             <div className={styles.grid}>
                 <div className={styles.bottom}>
                     <div className={styles.pencilwrapper}>
@@ -65,10 +62,10 @@ function AboutUs(props) {
                 </div>
 
                 <div className={styles.top}>
-                    <div className={`${styles.header} ${fira_mono.className}`}>
+                    <div className={styles.header}>
                         <div> <h1> about us </h1> </div>
                     </div>
-                    <div className={`${styles.grid} ${fira_mono.className}`}>
+                    <div className={styles.grid}>
                         <div className={styles.teamwrapper}>
                             <div className={styles.team}>
                                 <Image
@@ -85,11 +82,11 @@ function AboutUs(props) {
                             </div>
                         </div>
                     </div>
-                    <div className={`${styles.headshotheader} ${fira_mono.className}`}>
+                    <div className={styles.headshotheader}>
                         <h1> meat da team</h1>
                     </div>
 
-                    <div className={`${styles.headshotflex} ${fira_mono.className}`}>
+                    <div className={styles.headshotflex}>
                         <div className={styles.headshotflexbox}> 
                             <div className={styles.spacer}/>
                             <RenderTeam side={0}/>

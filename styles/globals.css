@@ -1,4 +1,18 @@
 
+@font-face {
+    font-family: "Caprisimo";
+    src: url('/assets/Caprasimo/Caprasimo-Regular.ttf')
+}
+
+@font-face {
+    font-family: "Fira_Mono";
+    src: url('/assets/Fira_Mono/FiraMono-Bold.ttf')
+}
+
+@font-face {
+    font-family: "Abhaya_Libre";
+    src: url('/assets/Abhaya_Libre/AbhayaLibre-ExtraBold.ttf')
+}
 
 :root {
   --max-width: 1100px;

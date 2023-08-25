@@ -1,4 +1,8 @@
 
+.about {
+    font-family: 'Fira Mono', monospace;
+}
+
 .grid {
     display: grid;
 }
