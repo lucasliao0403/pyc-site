@@ -17,6 +17,10 @@
     position: relative;
 }
 
+.imagewrapper:hover {
+    scale: 1.1;
+}
+
 .image1 {
     width: 100px;
     height: 34px;

@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Caprasimo } from 'next/font/google'
+import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Draggable from 'react-draggable'; 
 
 const caprisimo = Caprasimo({ subsets: ['latin'], weight: "400" })
+const fira_mono = Fira_Mono({ subsets: ['latin'], weight: ["400", "500", "700"] })
+const abhaya_libre = Abhaya_Libre({subsets:['latin'], weight: ["400", "500", "600", "700", "800"]})
 
 export default function Home() {
   return (
@@ -26,17 +29,24 @@ export default function Home() {
                     />
                 </div>
             </div>
-            <div className={styles.banner}>
-                    <Image
-                    src={require("/assets/banner.png")}
-                    fill={true}
-                    style={{objectFit: "cover"}}
-                    alt="banner"
-                    />
-            </div>
-            <div className={styles.header}> 
-                <h1> platform for yo<span>uth creativity</span></h1>
-            </div>
+            <Draggable>
+                <div className={styles.banner}>
+
+                        <Image
+                        src={require("/assets/banner.png")}
+                        fill={true}
+                        style={{objectFit: "cover"}}
+                        alt="banner"
+                        draggable={false}
+                        />
+  
+                </div>
+            </Draggable>
+            <Draggable>
+                <div className={`${styles.header} ${abhaya_libre.className}`} > 
+                    <h1> platform for yo<span>uth creativity</span></h1>
+                </div>
+            </Draggable>
         </div>
       </main>
     </>

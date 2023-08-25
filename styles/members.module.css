@@ -1,0 +1,20 @@
+
+.member {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--p)
+}
+
+.desc h2, .desc h3 {
+    margin: 0;
+}
+
+.headshot {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}

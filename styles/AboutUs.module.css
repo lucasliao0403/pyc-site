@@ -1,0 +1,145 @@
+
+.grid {
+    display: grid;
+}
+
+.grid div {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bottom {
+    z-index: 1;
+}
+
+.middle {
+    z-index: 500;
+}
+
+.top {
+    z-index: 999;
+}
+
+.pencil, .green, .team, .penguin, .painting{
+    position: relative;
+}
+
+/* --------------- bottom ---------------*/
+
+.pencilwrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.pencil {
+    height: 150px;
+    width: 960px;
+}
+
+.painting {
+    height: 1100px;
+    width: 1100px;
+    z-index: 1;
+}
+
+.paintingwrapper {
+    z-index: 1;
+}
+
+/* --------------- middle ---------------*/
+
+.green {
+    height: 1790px;
+    width: 960px;
+}
+
+.penguin {
+    height: 900px;
+    width: 900px;
+    z-index: 2;
+}
+
+.penguinwrapper {
+    display: flex;
+    justify-content: right;
+    margin-top: 1000px;
+    z-index: 2;
+}
+
+/* --------------- top ---------------*/
+
+.header {   
+    margin-top: calc(5rem + 2rem);
+}
+
+.header div{
+    background-color: var(--p);
+    font-weight: 800;
+    width: 350px;
+    color: var(--p);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.header h1 {
+    font-size: 70px;
+    text-shadow:
+    -3px -3px 0 var(--s),  
+     3px -3px 0 var(--s),
+    -3px  3px 0 var(--s),
+     3px  3px 0 var(--s);
+}
+
+.teamwrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.team {
+    height: 720px;
+    width: 1100px;
+    z-index: 800;
+}
+
+.teamdescwrapper {
+    z-index: 900;
+}
+
+.teamdesc {
+    width: 500px;
+    padding: .5rem;
+    background-color: white;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+
+.headshotheader {
+    margin-top: 5rem;
+}
+
+.headshotheader h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.headshotflex {
+    display: flex;
+}
+
+.headshotflexbox {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 350px;
+}
+
+.headshotcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

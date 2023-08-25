@@ -2,7 +2,9 @@ import React from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '/styles/navbar.module.css'
-// import {Tilt} from "react-tilt";
+import Draggable from 'react-draggable'; 
+
+// import Tilt from "react-tilt";
 
 function Navbar(props) {
     return (
@@ -13,7 +15,7 @@ function Navbar(props) {
             <div className={styles.content}>
                 <div className={`${styles.contentelements}`}>
                     <div className={`${styles.imagewrapper} ${styles.image1}`}>
-                        <Link href="/">  
+                        <Link href="/" >  
                             <Image
                             src={require("/assets/home.png")}
                             fill={true}
@@ -21,6 +23,7 @@ function Navbar(props) {
                             alt="home"
                             />
                         </Link>
+                        
                     </div>
                 </div>
                 <div className={`${styles.contentelements}`}>
@@ -47,18 +50,7 @@ function Navbar(props) {
                         </Link>
                     </div>
                 </div>
-                <div className={`${styles.contentelements}`}>
-                    <div className={`${styles.imagewrapper} ${styles.image4}`}>
-                        <Link href="./Contact"> 
-                            <Image
-                            src={require("/assets/contact.png")}
-                            fill={true}
-                            style={{objectFit: "cover"}}
-                            alt="contact"
-                            />
-                        </Link>
-                    </div>
-                </div>
+                
             </div>
             <div className={styles.socials}>
                 socials
