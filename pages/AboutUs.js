@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/AboutUs.module.css'
-// import { Caprasimo, Fira_Mono, Abhaya_Libre } from 'next/font/google'
-import {Member, RenderTeam} from './components/members'
+import {Member, RenderTeam} from '/components/members'
 
 
 
