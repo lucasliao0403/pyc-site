@@ -1,9 +1,20 @@
 import React from 'react';
+import styles from '/styles/Events.module.css'
 
-function Events(props) {
+function Events() {
     return (
-        <div>
-            events
+        <div className={styles.events}>
+            <div className={styles.grid}>
+                <div className={styles.bottom}>
+                    bottom
+                </div>
+                <div className={styles.middle}>
+                    middle
+                </div>
+                <div className={styles.top}>
+                    top
+                </div>
+            </div>
         </div>
     );
 }

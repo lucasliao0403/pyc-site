@@ -1,6 +1,6 @@
 
 .member {
-    width: 180px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,14 +9,22 @@
     color: var(--p)
 }
 
+.member:hover {
+    cursor: grab;
+}
+
+.member:active {
+    cursor: grabbing;
+}
+
 .desc h2, .desc h3 {
     margin: 0;
 }
 
 .headshot {
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .headshotrow{

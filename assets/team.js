@@ -70,6 +70,6 @@ export const team = [
         {
             name: "Lucas Liao", 
             position: "Technology"
-        }
+        },
     ]
 ]

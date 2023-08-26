@@ -117,6 +117,12 @@
     background-color: white;
     margin-top: 15rem;
     margin-left: 5rem;
+    padding: .5rem;
+}
+
+.teamdesc p {
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .headshotheader {
