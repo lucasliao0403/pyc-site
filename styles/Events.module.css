@@ -1,4 +1,8 @@
 
+.events {
+    font-family: 'Fira Mono', monospace;
+}
+
 .grid {
     display: grid;
 }
@@ -18,5 +22,129 @@
 
 .top {
     z-index: 999;
+}
+
+.banner, .crochet, .racc, .bluetex, .ship, .picasso, .paintbrush, .newspaper, .tote {
+    position: relative;
+}
+
+/* --------------- bottom ---------------*/
+
+
+.crochet {
+    width: 900px;
+    height: 1200px;
+}
+
+.racc {
+    width: 450px;
+    height: 1000px;
+}
+
+/* --------------- middle ---------------*/
+
+.spacer {
+    height: 600px;
+}
+
+.ship {
+    height: 820px;
+    width: 600px;
+    z-index: 950;
+}
+
+.shipwrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.bluetex {
+    height: 1000px;
+    width: 700px;
+    z-index: 900;
+}
+
+.bluetexwrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.picasso {
+    height: 900px;
+    width: 900px;
+}
+
+.picassowrapper {
+    margin-top: 500px;
+    display: flex;
+    justify-content: right;
+}
+
+.paintbrushwrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.paintbrush {
+    width: 1700px;
+    height: 450px;
+}
+
+.totewrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.tote {
+    margin-left: 100px;
+    width: 585px;
+    height: 845px;
+}
+
+.newspaperwrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: left;
+}
+
+.newspaper {
+    height: 1600px;
+    width: 1440px;
+}
+
+
+/* --------------- top ---------------*/
+
+.top {
+    padding-top: 150px;
+}
+
+.bannerwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    height: 200px;
+    width: 600px;
+    z-index: 900;
+}
+
+.header {
+    text-align: center;
+}
+
+.headerwrapper {
+    z-index: 950;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Mono', monospace;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: var(--p)
 }
 
