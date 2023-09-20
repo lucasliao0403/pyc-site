@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    font-family: "Fira_Mono";
+    font-family: "Fira Mono";
     src: url('/assets/Fira_Mono/FiraMono-Bold.ttf')
 }
 
 @font-face {
-    font-family: "Abhaya_Libre";
+    font-family: "Abhaya Libre";
     src: url('/assets/Abhaya_Libre/AbhayaLibre-ExtraBold.ttf')
 }
 
@@ -24,6 +24,7 @@
 
     --p: rgba(var(--tyrianpurple), 1);
     --s: rgba(var(--sand), 1);
+    --v: rgba(var(--violetindigo), 1)
     
   
 }
