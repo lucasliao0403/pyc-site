@@ -12,7 +12,7 @@ export function Member(props) {
             <div  className={styles.headshot}>
                 <Image
                 draggable={false}
-                src={require("/assets/headshot.png")}
+                src={require(`/assets/${props.src}.png`)}
                 fill={true}
                 style={{objectFit: "cover"}}
                 alt="member headshot"
@@ -33,7 +33,7 @@ const RenderGroup = ({group}) => {
     <div className={styles.headshotrow}>
         {group.map( (member) => {
             return(
-            <Member name={member.name} position={member.position}/>
+            <Member name={member.name} position={member.position} src={member.src}/>
             )
         })}
     </div>

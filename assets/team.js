@@ -2,74 +2,89 @@ export const team = [
     [
         {
             name: "Sherlyn Yao",
-            position: "Co-Chair"
+            position: "Co-Chair",
+            src: "sherlyn"
         },
         {
             name: "Paulina Garcia-Arias",
-            position: "Co-Chair"
+            position: "Co-Chair",
+            src: "paulina"
         },
     ], 
     [
         {
             name: "Tega Erhiaganoma",
-            position: "Logistics"
+            position: "Logistics",
+            src: "tega"
         },
         {
             name: "Michelle Chen",
-            position: "Logistics"
+            position: "Logistics",
+            src: "michelle"
         },
         {
             name: "Catherine Li",
-            position: "Logistics"
+            position: "Logistics",
+            src: "catherine"
         },
     ], 
     [
         {
             name: "Matthew Phang",
-            position: "Marketing"
+            position: "Marketing",
+            src: "matthew"
         },
         {
             name: "Angela Gan",
-            position: "Marketing"
+            position: "Marketing",
+            src: "angela"
         },
     ], 
     [
         {
             name: "Alexander Li",
-            position: "External Affairs"
+            position: "External Affairs",
+            src: "alexander"
         },
         {
             name: "Susanna Wong",
-            position: "External Affairs"
+            position: "External Affairs",
+            src: "susanna"
         },
         {
             name: "Audris Wong",
-            position: "External Affairs"
+            position: "External Affairs",
+            src: "audris"
         },
     ], 
     [
         {
             name: "Kaitlyn Mackey-Min",
-            position: "Media"
+            position: "Media",
+            src: "kaitlyn"
         },
         {
             name: "Felix Yan",
-            position: "Media"
+            position: "Media",
+            src: "felix"
         },
         {
             name: "Sydney Lieu",
-            position: "Media"
+            position: "Media",
+            src: "sydney"
         },
         {
             name: "Andrew Anthonio",
-            position: "Media"
+            position: "Media",
+            src: "andrew"
         },
 
     ],
     [
         {
             name: "Lucas Liao", 
-            position: "Technology"
+            position: "Technology",
+            src: "lucas"
         },
     ]
 ]
