@@ -4,9 +4,15 @@ import styles from '@/styles/Home.module.css'
 import Draggable from 'react-draggable'; 
 
 
+
 export default function Home() {
+    
   return (
     <div className={styles.home}>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet"/>
       <Head>
         <title>PYC</title>
         <meta name="description" content="Platform for Youth Creativity" />

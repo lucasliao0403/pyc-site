@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/Events.module.css'
+import Collapsible from 'react-collapsible';
+import Card from '/components/card.js'
 
 function Events() {
     return (
@@ -124,6 +126,9 @@ function Events() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className={styles.body}>
+                    <Card></Card>
                 </div>
             </div>
         </div>

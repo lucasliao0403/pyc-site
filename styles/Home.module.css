@@ -1,5 +1,5 @@
 .home {
-    font-family: 'Abhaya_Libre';
+    font-family: 'Abhaya Libre', serif;
 }
 
 .grid {
@@ -42,17 +42,18 @@
 }
 
 .header {
+    /* font-family:  */
     text-align: center;
     transform: rotate(-2deg);
     margin-top: 20vh;
     max-height: 100px;
 }
 
-.header1 h1 {
+.header h1 {
     font-size: calc(10px + 4vw);
     color: rgba(var(--tyrianpurple), 1);
     /* -webkit-text-stroke: 1px rgba(var(--sand), 1); */
-    font-weight: 800;
+    font-weight: 700;
     text-shadow:
     -1px -1px 0 var(--s),  
      1px -1px 0 #000,
@@ -60,9 +61,14 @@
      1px  1px 0 #000;
 }
 
-.header1 h1 span {
-    color: rgba(var(--tyrianpurple), 1);
-    /* -webkit-text-stroke: 1px rgba(var(--sand), 1); */
+.header h1 span {
+    color: var(--s);
+    text-shadow:
+    -1px -1px 0 var(--v),
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    
 }
 
 .header2 h1 {

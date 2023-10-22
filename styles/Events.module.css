@@ -21,7 +21,11 @@
 }
 
 .top {
-    z-index: 999;
+    z-index: 700;
+}
+
+.body {
+    z-index: 900;
 }
 
 .banner, .crochet, .racc, .bluetex, .ship, .picasso, .paintbrush, .newspaper, .tote {
@@ -154,4 +158,11 @@
     font-size: 3rem;
     color: var(--p)
 }
+
+/* --------------- top ---------------*/
+
+.body {
+    
+}
+
 
