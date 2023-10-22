@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+}
+
+.grid div {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bg, .bg2 {
+    position: relative;
+    height: 80px;
+    width: 100vw;
+}

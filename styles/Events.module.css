@@ -129,6 +129,13 @@
     height: 200px;
     width: 600px;
     z-index: 900;
+    box-shadow: 7px -5px 6px 0px #4B0082, 
+    11px -9px 6px 0px #0000FF, 
+    16px -14px 6px 0px #00FF00, 
+    20px -17px 6px 0px #FFFF00, 
+    24px -19px 6px 0px #FF7F00, 
+    27px -23px 6px 0px #FF0000, 
+    5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .header {

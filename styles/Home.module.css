@@ -30,6 +30,10 @@
     cursor: grab;
 }
 
+.banner:active, .header h1:active {
+    cursor: grabbing;
+}
+
 .banner {
     margin-top: 18vh;
     width: 100vw;
