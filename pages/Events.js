@@ -128,7 +128,18 @@ function Events() {
                     </div>
                 </div>
                 <div className={styles.body}>
-                    <Card></Card>
+                    <div className={`${styles.card1} ${styles.card}`}>
+                        <Card name="fall coffeehouse" bg={require("/assets/fall-bg.png").default}/>
+                    </div>
+                    <div className={`${styles.card2} ${styles.card}`}>
+                        <Card name="solstice" bg={require("/assets/solstice-bg.png").default}/>
+                    </div>
+                    <div className={`${styles.card3} ${styles.card}`}>
+                        <Card name="spring coffeehouse" bg={require("/assets/spring-bg.png").default}/>
+                    </div>
+                    <div className={`${styles.card4} ${styles.card}`}>
+                        <Card name="purple market" bg={require("/assets/purple-bg.png").default}/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,4 +1,18 @@
 
+@font-face {
+    font-family: "Caprisimo";
+    src: url('/assets/Caprasimo/Caprasimo-Regular.ttf')
+}
+
+@font-face {
+    font-family: "Fira Mono";
+    src: url('/assets/Fira_Mono/FiraMono-Bold.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

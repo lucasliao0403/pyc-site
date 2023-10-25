@@ -159,9 +159,23 @@
     color: var(--p)
 }
 
-/* --------------- top ---------------*/
+
 
 .body {
+    width: 100vw;
+}
+
+.card {
+    margin: 12rem 0 12rem 0;
+    display: flex;
+}
+
+.card1 {
+    margin-top: 420px;
+}
+
+.card2, .card4 {
+    justify-content: right;
     
 }
 
