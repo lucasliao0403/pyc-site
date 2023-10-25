@@ -2,11 +2,6 @@ import React from 'react';
 import Image from 'next/image'
 import styles from '/styles/Card.module.css'
 import Collapsible from 'react-collapsible';
-import Carousel from 'react-material-ui-carousel'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import fall from "./fall-bg.png"
 
 function Card(props) {
     console.log(props)
